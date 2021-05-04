@@ -1,0 +1,17 @@
+package com.map;
+
+import java.util.Hashtable;
+
+public class HashTableDemo {
+
+	public static void main(String[] args) {
+		
+		//Hashtable ht=new Hashtable();   //default capacity 11 and load factor 0.75
+		//Hashtable ht=new Hashtable(20);
+		//Hashtable ht=new Hashtable(20,(float)0.9);
+		Hashtable<Integer,String> ht=new Hashtable<>();
+		
+
+	}
+
+}

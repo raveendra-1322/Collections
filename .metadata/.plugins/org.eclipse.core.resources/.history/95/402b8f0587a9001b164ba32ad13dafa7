@@ -1,0 +1,22 @@
+package com.list;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class SynchronisationInArrayList {
+
+	public static void main(String[] args) {
+		
+		List<String> arr=Collections.synchronizedList(new ArrayList<String>());
+		
+		arr.add("webdriver");
+		arr.add("java");
+		arr.add("selenium");
+		arr.add("testng");
+		System.out.println(arr);
+		
+
+	}
+
+}

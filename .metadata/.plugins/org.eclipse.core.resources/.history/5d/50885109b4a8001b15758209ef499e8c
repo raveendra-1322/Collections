@@ -1,0 +1,28 @@
+package com.list;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo2 {
+
+	public static void main(String[] args) {
+		
+		
+		LinkedList<String> ll=new LinkedList<>();
+		ll.add("A");
+		ll.add("K");
+		ll.add("M");
+		ll.add("B");
+		ll.add("C");
+		ll.add("C");
+		
+		LinkedList<String> ll_dup=new LinkedList<>();
+		ll_dup.addAll(ll);
+		System.out.println("new collection is: "+ ll_dup);
+		ll_dup.add("dog");
+		ll_dup.add("pig");
+		ll_dup.add("cat");
+		
+		
+	}
+
+}

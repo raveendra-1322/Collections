@@ -1,0 +1,16 @@
+package com.set;
+
+public class LinkedHashSetDemo {
+
+	public static void main(String[] args) {
+
+		LinkedHashSet lh=new LinkedHashSet(); 
+
+
+
+
+
+
+	}
+
+}

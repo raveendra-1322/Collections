@@ -1,0 +1,18 @@
+package com.list;
+
+public class ArrayListDemo3 {
+
+	public static void main(String[] args) {
+		//Convert array into arraylist
+		
+		String arr[]= {"A","G","O"};
+		
+	for(String s:arr) {
+		
+		System.out.println("Array elements are :"+ s);
+	}
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.map;
+
+import java.util.HashMap;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+
+		HashMap hm=new HashMap();
+		hm.put(101, "A");
+		hm.put(102, "B");
+		hm.put(103, "C");
+		hm.put(104, "D");
+		hm.put(105, "E");
+		hm.put(106, "F");
+
+		System.out.println(hm);
+
+
+		System.out.println(	hm.containsKey(101));  //true
+		System.out.println(hm.containsValue("B"));  //true
+		System.out.println(hm.get(103));
+		System.out.println(hm.isEmpty());
+		System.out.println(hm.size());
+		hm.remove(106);
+		
+		
+		
+	}
+
+}

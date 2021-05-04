@@ -1,0 +1,21 @@
+package com.map;
+
+import java.util.HashMap;
+
+public class HashMapIteration {
+
+	public static void main(String[] args) {
+
+		HashMap<Integer,String> studentList=new HashMap<Integer, String>();
+		studentList.put(101, "Ravi");
+		studentList.put(102, "Mani");
+		studentList.put(103, "Sree");
+		studentList.put(104, "Siva");
+
+		//Operations on HashMap
+		System.out.println(studentList.get(104));
+
+
+	}
+
+}

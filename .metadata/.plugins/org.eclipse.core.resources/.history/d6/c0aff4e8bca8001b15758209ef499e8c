@@ -1,0 +1,28 @@
+package com.set;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+
+		//HashSet<Integer> hs=new HashSet<>();
+		//HashSet hs=new HashSet(16);    //default capacity 16 and fill ratio is 0.75%
+		//HashSet hs=new HashSet(100,(float)0.90);
+
+		HashSet hs=new HashSet();
+
+		hs.add(10);
+		hs.add("hello");
+		hs.add("hii");
+		hs.add('A');
+		hs.add(10.5);
+		hs.add(null);
+		hs.add(true);
+		hs.add(null);
+		hs.add(10);
+		System.out.println("hashset elements are :"+hs);
+
+	}
+
+}
